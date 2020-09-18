@@ -10,7 +10,7 @@ const WelcomeScreen = (props) => {
         <div>
             <h1>Welcome To Quizatron</h1>
             <p>Ready to begin?</p>
-            <button onClick={handleClick}>--Click Here--</button>
+            <button onClick={handleClick}>Click Here</button>
         </div>
     );
 

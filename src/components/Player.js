@@ -1,8 +1,8 @@
 import React from "react";
 
-const Player = ({ name }) => (
+const Player = (props) => (
 
-        <li>{ name }</li>
+        <p className='item'>{ props.name.toUpperCase() }</p>
 );
 
 export default Player;

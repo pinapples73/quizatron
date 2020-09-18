@@ -28,10 +28,9 @@ class AddPlayer extends Component {
     render() {
         return (
             <div>
-                <h1>Add New Players Below:</h1>
-                <form onSubmit={this.handleSubmit}>
-                    <label>Enter Name: </label>
-                    <input type="text" placeholder="Cambridge Fry" value={(this.state.playerName)} onChange={this.handleTextChange}/>
+                <form className='player-add' onSubmit={this.handleSubmit}>
+                    <label>New Player: </label>
+                    <input className='input-display' type="text" placeholder="" value={(this.state.playerName)} onChange={this.handleTextChange}/>
                     <button>Add Player</button>
                 </form>
             </div>
