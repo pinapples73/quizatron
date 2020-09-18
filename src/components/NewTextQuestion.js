@@ -5,16 +5,19 @@ import Timer from './Timer';
 
 const NewTextQuestion = (props) => {
 
-    function handleClick(){
+    function handleContinue(){
         props.onNext();
     }
 
     return (
         <div>
-            <h3>Round {props.currentTask.roundNumber} - {props.currentTask.roundTitle}</h3>
-            <h2>Question {props.currentTask.questionNumber}: {props.currentTask.question}</h2>
+            {/*<h3>Round {props.currentTask.roundNumber} - {props.currentTask.roundTitle}</h3>*/}
+            <h3>Question {props.currentTask.questionNumber}</h3>
+            <h2>{props.currentTask.question}</h2>
             <Timer/>
-            <button onClick={handleClick}>Continue</button>
+            <p>
+                <button onClick={handleContinue}>Continue</button>
+            </p>
         </div>
 
     )
