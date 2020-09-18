@@ -1,0 +1,4 @@
+type,roundNumber,roundTitle,question,fileName,answer
+round title screen,1,General Knowledge,,,
+q text,1,,According to historians who was the first ever computer programmer?,,Ada Lovelace
+q text,1,,In the TV game show Family Fortunes which famous computer pioneer was the Survey Board named after?,,Charles Babbage
